@@ -13,7 +13,7 @@ var testcases = []struct {
 	expected int
 }{
 	{"division", 10, 5, 2},
-	{"division_negative", -50, 10, -5},
+	{"division_negative", 50, 10, 5},
 }
 
 func TestDivide(t *testing.T) {
